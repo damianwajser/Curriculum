@@ -868,4 +868,13 @@ textarea {
 	text-align: center;
 }
 
+.softtek-logo{
+	padding: 0.4em 0;
+    margin-left: 0px;
+    margin-right: -15px;
+}
+.job-in-consultora{
+	padding: 0;
+}
+
 /*# sourceMappingURL=base.css.map */
