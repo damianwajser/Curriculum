@@ -873,8 +873,18 @@ textarea {
     margin-left: 0px;
     margin-right: -15px;
 }
+@media screen and (max-width:400px) {
+	.softtek-logo{
+		display: none;
+	}
+}
 .job-in-consultora{
 	padding: 0;
+}
+img.tech {
+	top: -3rem;
+    position: absolute;
+    height: 1.5em;
 }
 
 /*# sourceMappingURL=base.css.map */
