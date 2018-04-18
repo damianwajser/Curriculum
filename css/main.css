@@ -314,6 +314,9 @@ dt {
 dd {
 	margin: 0 0 0 2rem;
 }
+dt.grey{
+	color: #6e6e6e;
+}
 
 /**
  * tables - (_document-setup.scss)  
