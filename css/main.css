@@ -1492,12 +1492,12 @@ header .logo a {
  *
  * ------------------------------------------------------------------- 
  */
-#about {
+.white-section {
 	background: #FFFFFF;
 	padding-top: 12rem;
 	padding-bottom: 15rem;
 }
-#about .section-intro {
+.white-section .section-intro {
 	margin-bottom: 3rem;
 }
 
