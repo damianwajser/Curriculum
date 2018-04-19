@@ -1623,27 +1623,27 @@ header .logo a {
  *
  * ------------------------------------------------------------------- 
  */
-#resume {
+.resume {
 	padding-top: 12rem;
 	padding-bottom: 12rem;
 }
 
-#resume .resume-header {
+.resume .resume-header {
 	text-align: center;
 }
-#resume .resume-header h2 {
+.resume .resume-header h2 {
 	color: #FF0077;
 }
 
-#resume .resume-timeline {
+.resume .resume-timeline {
 	max-width: 980px;
 }
-#resume .timeline-wrap {
+.resume .timeline-wrap {
 	position: relative;
 	margin-top: 1.5rem;
 	margin-bottom: 6rem;
 }
-#resume .timeline-wrap::before {
+.resume .timeline-wrap::before {
 	content: "";
 	display: block;
 	width: 1px;
@@ -1653,11 +1653,11 @@ header .logo a {
 	left: 35%;
 	top: 0;
 }
-#resume .timeline-block {
+.resume .timeline-block {
 	position: relative;
 	padding-top: 1.5rem;
 }
-#resume .timeline-ico {
+.resume .timeline-ico {
 	height: 4.8rem;
 	width: 4.8rem;
 	line-height: 4.8rem;
@@ -1670,35 +1670,35 @@ header .logo a {
 	top: .9rem;
 	margin-left: -2.4rem;
 }
-#resume .timeline-ico i {
+.resume .timeline-ico i {
 	position: relative;
 	left: .05rem;
 	top: .2rem;
 }
 
-#resume .timeline-header {
+.resume .timeline-header {
 	float: left;
 	width: 35%;
 	padding-right: 90px;
 	text-align: right;
 }
-#resume .timeline-header h3 {
+.resume .timeline-header h3 {
 	margin-bottom: 0;
 }
-#resume .timeline-header p {
+.resume .timeline-header p {
 	font-family: "poppins-regular", sans-serif;
 	font-size: 1.6rem;
 	color: #888888;
 }
-#resume .timeline-content {
+.resume .timeline-content {
 	margin-left: 35%;
 	padding-left: 60px;
 }
-#resume .timeline-content h4 {
+.resume .timeline-content h4 {
 	position: relative;
 	padding-bottom: 1.8rem;
 }
-#resume .timeline-content h4::after {
+.resume .timeline-content h4::after {
 	content: "";
 	display: block;
 	height: 3px;
@@ -1715,64 +1715,64 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 @media only screen and (max-width:1024px) {
-	#resume .timeline-header {
+	.resume .timeline-header {
 		padding-right: 50px;
 	}
-	#resume .timeline-header h3 {
+	.resume .timeline-header h3 {
 		font-size: 1.8rem;
 	}
-	#resume .timeline-header p {
+	.resume .timeline-header p {
 		font-size: 1.4rem;
 	}
-	#resume .timeline-content {
+	.resume .timeline-content {
 		padding-left: 50px;
 	}
 }
 @media only screen and (max-width:768px) {
-	#resume .timeline-wrap::before {
+	.resume .timeline-wrap::before {
 		left: 2.4rem;
 	}
-	#resume .timeline-ico {
+	.resume .timeline-ico {
 		left: 2.4rem;
 	}
-	#resume .timeline-header {
+	.resume .timeline-header {
 		float: none;
 		width: auto;
 		padding-right: 15px;
 		text-align: left;
 	}
-	#resume .timeline-header h3 {
+	.resume .timeline-header h3 {
 		font-size: 2rem;
 	}
-	#resume .timeline-header p {
+	.resume .timeline-header p {
 		font-size: 1.5rem;
 		margin-bottom: 1.5rem;
 	}
-	#resume .timeline-content {
+	.resume .timeline-content {
 		margin: 0;
 	}
-	#resume .timeline-content h4 {
+	.resume .timeline-content h4 {
 		padding-bottom: 0;
 		padding-top: 2.1rem;
 		margin-bottom: .6rem;
 		font-size: 1.7rem;
 	}
-	#resume .timeline-content h4::after {
+	.resume .timeline-content h4::after {
 		bottom: auto;
 		top: 0;
 	}
-	#resume .timeline-header, #resume .timeline-content {
+	.resume .timeline-header, .resume .timeline-content {
 		padding-left: 7rem;
 	}
 }
 @media only screen and (max-width:480px) {
-	#resume .resume-header h2 {
+	.resume .resume-header h2 {
 		font-size: 2.2rem;
 	}
-	#resume .timeline-wrap::before {
+	.resume .timeline-wrap::before {
 		left: 1.8rem;
 	}
-	#resume .timeline-ico {
+	.resume .timeline-ico {
 		height: 3.6rem;
 		width: 3.6rem;
 		line-height: 3.6rem;
@@ -1780,7 +1780,7 @@ header .logo a {
 		margin-left: -1.8rem;
 		font-size: 1.5rem;
 	}
-	#resume .timeline-header, #resume .timeline-content {
+	.resume .timeline-header, .resume .timeline-content {
 		padding-left: 5.5rem;
 	}
 }
