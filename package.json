@@ -1,0 +1,23 @@
+{
+  "name": "curriculum",
+  "version": "1.0.0",
+  "description": "cv",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damianwajser/Curriculum.git"
+  },
+  "author": "Damian Wajser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/damianwajser/Curriculum/issues"
+  },
+  "homepage": "https://github.com/damianwajser/Curriculum#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^4.1.0"
+  }
+}
