@@ -886,5 +886,9 @@ img.tech {
     position: absolute;
     height: 1.5em;
 }
-
+img.tech.big {
+	top: -2.7rem;
+    position: absolute;
+    height: 0.9em;
+}
 /*# sourceMappingURL=base.css.map */
